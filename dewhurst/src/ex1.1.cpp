@@ -18,5 +18,5 @@ int main() {
 	print_size<short>("short", (short) 1);
 	print_size<int>("int", (int) 1);
 	print_size<long>("long", (long) 1);
-	print_size<long>("long long", (long long) 1);
+	print_size<long long>("long long", (long long) 1);
 }
