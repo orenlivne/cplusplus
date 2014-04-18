@@ -17,7 +17,7 @@ int h(char& i) {
 	return ++i;
 }
 
-int main() {
+int main_ex1_2() {
 	int a = 0, b = 0, c = 0;
 	a += f(g(a));
 	int u;
@@ -26,4 +26,5 @@ int main() {
 	b += g(temp);
 	c += f(h((char&) c));
 	cout << "a " << a << " b " << b << " c " << endl;
+	return 0;
 }

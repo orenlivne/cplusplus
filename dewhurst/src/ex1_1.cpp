@@ -13,10 +13,11 @@ void print_size(const char* name, T value) {
 	cout << name << ": " << b * sizeof(value) << endl;
 }
 
-int main() {
+int main_ex1_1() {
 	print_size<char>("char", (char) 1);
 	print_size<short>("short", (short) 1);
 	print_size<int>("int", (int) 1);
 	print_size<long>("long", (long) 1);
 	print_size<long long>("long long", (long long) 1);
+	return 0;
 }
