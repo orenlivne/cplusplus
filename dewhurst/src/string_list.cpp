@@ -88,10 +88,10 @@ class Dictionary {
 		return map_[key];
 	}
 
-	void insert(const string &key, const vector<string>& value,
+	void insert(const string &key, const char* value[],
 			bool filter = false) {
-//		const vector<string> filtered_value =
-//				filter ? filter_->filter_string_list(value) : value;
+		const vector<string> filtered_value =
+				filter ? filter_->filter_string_list(value) : value;
 		map_[key] = value;
 	}
 

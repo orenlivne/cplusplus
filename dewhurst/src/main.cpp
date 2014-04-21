@@ -14,4 +14,5 @@ int main() {
 	main_ex1_4();
 	main_ex1_5();
 	main_ex1_6();
+	main_string_list();
 }
